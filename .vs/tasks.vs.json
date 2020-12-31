@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-dotnet-vaquinha-tests",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-Vaquinha",
+      "appliesTo": "Vaquinha.sln",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-Vaquinha.MVC",
+      "appliesTo": "src/Vaquinha.MVC/Vaquinha.MVC.csproj",
+      "type": "msbuild"
+    }
+  ]
+}
